@@ -2,6 +2,8 @@
 from django.db import models
 from multiselectfield import MultiSelectField
 
+# Add one coment line from github server
+
 class EnquireData(models.Model):
     name = models.CharField(max_length=30)
     email = models.EmailField(max_length=100)
