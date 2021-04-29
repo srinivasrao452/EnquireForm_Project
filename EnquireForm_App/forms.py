@@ -1,7 +1,10 @@
 
+
 from django import forms
 from multiselectfield import MultiSelectFormField
 from django.forms.widgets import SelectDateWidget
+
+# Added code from local system to server system.
 
 class EnquiryForm(forms.Form):
     name = forms.CharField(
